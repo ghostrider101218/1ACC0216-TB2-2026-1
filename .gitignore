@@ -1,0 +1,26 @@
+# Entorno Python
+.venv/
+.cursor/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE (mantener contexto de agente versionado)
+.vscode/
+.cursor/*
+!.cursor/context/
+
+# SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Salidas generadas por scripts/notebook
+outputs/
+figures/
+*.log
